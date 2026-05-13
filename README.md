@@ -1,10 +1,10 @@
-# Student Grading System  🎓
+# Student Grading System  
 
 A comprehensive, modular C# Console Application designed for academic management. This system provides a centralized platform for handling student records, course configurations, and high-precision grade calculations using Object-Oriented Programming (OOP) principles.
 
 ---
 
-## 👥 Team Members
+##  Team Members
 The project was developed and implemented by the following team members:
 * **Ahmed Abdelnasser Ahmed**
 * **Mohamed Gamal Hussein**
@@ -15,10 +15,10 @@ The project was developed and implemented by the following team members:
 
 ---
 
-## 📝 Project Description
+##  Project Description
 **Student Grading System (SGS)** is a robust backend-focused application. It allows administrators to manage educational data with a focus on data integrity and flexibility in grading standards.
 
-### ✨ Core Features
+###  Core Features
 * **Advanced Grading Policies:** Implements a polymorphic grading engine supporting both **Weighted** and **Percentage-Based** calculations.
 * **Data Persistence:** Uses a local file-based storage system (`Courses.txt` and `Students.txt`) to ensure data is saved and reloaded automatically.
 * **Dynamic GPA Calculation:** Automatically computes the Cumulative GPA (on a 4.0 scale) based on earned grades and credit hours.
@@ -27,7 +27,7 @@ The project was developed and implemented by the following team members:
 
 ---
 
-## 🛠 Technical Architecture
+##  Technical Architecture
 The system is built following **Object-Oriented Programming (OOP)** principles and uses specific design patterns to ensure modularity:
 
 * **`Program.cs`**: The main entry point managing the user interface, menu logic, and file I/O operations.
@@ -39,7 +39,7 @@ The system is built following **Object-Oriented Programming (OOP)** principles a
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 ### System Requirements
 * **.NET SDK 9.0 or 10.0** (Minimum requirement).
@@ -55,14 +55,15 @@ The system is built following **Object-Oriented Programming (OOP)** principles a
 
 ---
 
-## 📊 UML Class Diagram
+##  UML Class Diagram
 Below is the structural representation of the system architecture.
 
-![UML Diagram](https://via.placeholder.com/800x400.png?text=Place+Your+UML+Diagram+Image+Link+Here)
+<img width="1190" height="657" alt="Screenshot 2026-05-13 230259" src="https://github.com/user-attachments/assets/ced3e0bf-dc37-4109-aedf-3375970f06d2" />
+
 
 ---
 
-## 📂 Data Storage
+##  Data Storage
 The system maintains data in the following local text files located in the execution directory:
 * `Students.txt`: Stores student IDs, names, and enrolled course data.
 * `Courses.txt`: Stores available course definitions and grading structures.
