@@ -58,7 +58,7 @@ The system is built following **Object-Oriented Programming (OOP)** principles a
 ##  UML Class Diagram
 Below is the structural representation of the system architecture.
 
-<img width="1190" height="657" alt="Screenshot 2026-05-13 230259" src="https://github.com/user-attachments/assets/ced3e0bf-dc37-4109-aedf-3375970f06d2" />
+<img width="1242" height="678" alt="image" src="https://github.com/user-attachments/assets/d4b2ca26-ede0-44b1-bdc6-5efc1694079f" />
 
 
 ---
