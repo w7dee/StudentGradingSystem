@@ -10,8 +10,7 @@ namespace StudentGradingSystem
         private int studentId;
         private string name;
         private string department;
-        public List<Course> Courses { get; private set; }
-
+        private List<Course> _courses;
         public int StudentID
         {
             get { return studentId; }
@@ -42,6 +41,17 @@ namespace StudentGradingSystem
                 if (string.IsNullOrWhiteSpace(value))
                     throw new ArgumentException("Department cannot be empty.");
                 department = value;
+            }
+        }
+        public List<Course> Courses
+        {
+            get
+            {
+                return _courses;
+            }
+            private set
+            {
+                _courses = value;
             }
         }
 
@@ -135,13 +145,5 @@ namespace StudentGradingSystem
                 Console.WriteLine();
             }
         }
-
-
-
-
-
-
-
-
     }
 }

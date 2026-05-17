@@ -16,8 +16,8 @@ namespace StudentGradingSystem
         private string courseCode;
         private string courseName;
         private int creditHours;
-        public List<GradeComponent> Components { get; set; }
-        public Gradingtype CourseGradingType { get; set; }
+        private List<GradeComponent> _components;
+        private Gradingtype _courseGradingType;
         public Course()
         {
             courseCode = " ";
@@ -71,6 +71,29 @@ namespace StudentGradingSystem
             }
         }
 
+        public List<GradeComponent> Components
+        {
+            get
+            {
+                return _components;
+            }
+            set
+            {
+                _components = value;
+            }
+        }
+
+        public Gradingtype CourseGradingType
+        {
+            get
+            {
+                return _courseGradingType;
+            }
+            set
+            {
+                _courseGradingType = value;
+            }
+        }
         public void AddGradeComponent(GradeComponent component)
         {
             if (component != null)
